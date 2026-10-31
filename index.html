@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prabodh Kale — Video Editor & AI Visual Storyteller</title>
+  <meta name="description" content="Prabodh Kale is a Mumbai-based video editor and AI-driven visual storyteller. Reels, documentaries, podcasts, motion graphics and generative-AI films.">
+  <meta property="og:title" content="Prabodh Kale — Video Editor & AI Visual Storyteller">
+  <meta property="og:description" content="Editing stories that connect & convert. 50M+ views generated.">
+  <meta property="og:image" content="assets/portrait-1.jpg">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0a'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23f2f0eb'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://video.wixstatic.com">
+  <link rel="preconnect" href="https://static.wixstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=17">
+</head>
+<body class="is-loading">
+
+  <!-- Film-leader preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__ring"><span class="loader__sweep"></span><span class="loader__num">3</span></div>
+    <div class="loader__meta mono"><span>PK_REEL_2026.mov</span><span class="loader__pct">00%</span></div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"><span class="cursor__label"></span></div></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__brand" data-magnetic>
+      <span class="nav__mark">PK</span>
+      <span class="nav__name">Prabodh Kale</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work" class="roll"><span data-t="Work">Work</span></a>
+      <a href="#about" class="roll"><span data-t="About">About</span></a>
+      <a href="#services" class="roll"><span data-t="Services">Services</span></a>
+      <a href="#contact" class="roll"><span data-t="Contact">Contact</span></a>
+    </nav>
+    <div class="nav__right">
+      <span class="nav__rec mono"><i></i>REC</span>
+      <span class="nav__clock mono" data-clock>MUM 00:00</span>
+      <button class="btn btn--pill" data-book data-magnetic><span class="roll"><span data-t="Book a call">Book a call</span></span></button>
+    </div>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" aria-hidden="true">
+    <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
+    <button class="btn btn--light" data-book>Book a call</button>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__reel" aria-hidden="true">
+        <video muted playsinline loop preload="auto"></video>
+        <video muted playsinline loop preload="none"></video>
+        <div class="hero__shade"></div>
+      </div>
+
+      <div class="hero__inner">
+        <p class="kicker mono reveal-fade"><span class="dot"></span> Available for projects — Nov 2026</p>
+        <h1 class="hero__title">
+          <span class="line" data-split>Editing stories</span>
+          <span class="line line--serif" data-split><em>that connect</em></span>
+          <span class="line" data-split>&amp; convert.</span>
+        </h1>
+        <div class="hero__foot reveal-fade">
+          <p class="hero__sub">Autodidact video editor turned <em>AI-driven visual storyteller</em>. Reels, documentaries, podcasts &amp; motion graphics, from Mumbai to everywhere.</p>
+          <button class="play" data-reel data-magnetic aria-label="Play showreel">
+            <svg viewBox="0 0 120 120" class="play__text"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#circ">PLAY SHOWREEL • PLAY SHOWREEL • </textPath></text></svg>
+            <span class="play__icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </button>
+        </div>
+      </div>
+
+      <figure class="hero__portrait" data-tilt>
+        <img src="assets/portrait-1.jpg" alt="Portrait of Prabodh Kale wearing headphones" onerror="this.parentElement.classList.add('no-img')">
+        <figcaption class="mono">
+          <span>CAM A — 50mm</span><span>ƒ/1.8</span>
+        </figcaption>
+        <span class="frame-corners"></span>
+      </figure>
+
+      <div class="hero__tc mono" aria-hidden="true">
+        <span>TC</span><span data-timecode>00:00:00:00</span>
+      </div>
+      <a href="#work" class="hero__scroll mono" aria-label="Scroll to work"><span>Scroll</span><i></i></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>AI Films</span><b>✦</b><span>Reels</span><b>✦</b><span>Documentaries</span><b>✦</b><span>Motion Graphics</span><b>✦</b><span>Podcasts</span><b>✦</b><span>YouTube</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <p class="label mono">(01) — Selected work</p>
+        <h2 class="h2" data-split>Work that <em>speaks.</em></h2>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Filter work">
+        <span class="filters__pill" aria-hidden="true"></span>
+        <button role="tab" aria-selected="true" data-filter="all">All <sup data-count="all"></sup></button>
+        <button role="tab" aria-selected="false" data-filter="ai">AI Films <sup data-count="ai"></sup></button>
+        <button role="tab" aria-selected="false" data-filter="motion">Motion Graphics <sup data-count="motion"></sup></button>
+        <button role="tab" aria-selected="false" data-filter="podcast">Podcasts <sup data-count="podcast"></sup></button>
+        <button role="tab" aria-selected="false" data-filter="short">Short-form <sup data-count="short"></sup></button>
+      </div>
+
+      <div class="grid" data-grid></div>
+
+      <button class="btn btn--ghost more" data-more data-magnetic><span class="roll"><span data-t="Load more work">Load more work</span></span></button>
+
+      <div class="pods" data-podcast-notes hidden>
+        <div class="pods__head">
+          <p class="label mono">Long-form podcasts · Think School</p>
+          <h3 class="pods__title">Podcasting. <em>Clear stories.</em> Strong understanding.</h3>
+          <div class="pods__ps">
+            <div><p class="mono">Problem</p><p>Good ideas get lost in long conversations. Listeners lose context without a clear narrative structure.</p></div>
+            <div><p class="mono">Solution</p><p>Ideas are structured to be imagined, not just heard. Editing refines the conversation into a coherent story.</p></div>
+          </div>
+        </div>
+        <ol class="pods__list">
+          <li class="pod" data-pod>
+            <button class="pod__head" aria-expanded="false">
+              <span class="pod__n mono">#01</span>
+              <span class="pod__name"><span class="pod__t">Anupam Mittal</span><span class="pod__ep">CEO Blueprint: Anupam Mittal's masterclass on how to find a gap in the market</span></span>
+              <span class="pod__x" aria-hidden="true"></span>
+            </button>
+            <div class="pod__panel"><div class="pod__inner">
+              <button class="pod__media" data-yt="70Bg6fkr9gI" aria-label="Play Anupam Mittal episode">
+              <img src="https://i.ytimg.com/vi/70Bg6fkr9gI/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/70Bg6fkr9gI/hqdefault.jpg'">
+              <span class="pod__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+              <div class="pod__body">
+                <p class="pod__role">My role was to structure the conversation in collaboration with a content strategist. Episodes were compiled and edited for clarity and flow. The intro was edited separately by another editor.</p>
+                <a class="pod__link mono" href="https://www.youtube.com/watch?v=70Bg6fkr9gI" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+              </div>
+            </div></div>
+          </li>
+          <li class="pod" data-pod>
+            <button class="pod__head" aria-expanded="false">
+              <span class="pod__n mono">#02</span>
+              <span class="pod__name"><span class="pod__t">Iran vs Israel</span><span class="pod__ep">Why Israel attacks Syria, fears Iran's bomb &amp; faces global pressure: the Israeli Ambassador explains</span></span>
+              <span class="pod__x" aria-hidden="true"></span>
+            </button>
+            <div class="pod__panel"><div class="pod__inner">
+              <button class="pod__media" data-yt="6FzfkIGuscc" aria-label="Play Iran vs Israel episode">
+              <img src="https://i.ytimg.com/vi/6FzfkIGuscc/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/6FzfkIGuscc/hqdefault.jpg'">
+              <span class="pod__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+              <div class="pod__body">
+                <p class="pod__role">My role was to structure the conversation in collaboration with a content strategist. Episodes were compiled and edited for clarity and flow. The intro was edited separately by another editor.</p>
+                <a class="pod__link mono" href="https://www.youtube.com/watch?v=6FzfkIGuscc" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+              </div>
+            </div></div>
+          </li>
+          <li class="pod" data-pod>
+            <button class="pod__head" aria-expanded="false">
+              <span class="pod__n mono">#03</span>
+              <span class="pod__name"><span class="pod__t">Gurgaon's Real Estate</span><span class="pod__ep">The dark truth of Gurgaon real estate ft. Vishal Bhargava · IBP EP35</span></span>
+              <span class="pod__x" aria-hidden="true"></span>
+            </button>
+            <div class="pod__panel"><div class="pod__inner">
+              <button class="pod__media" data-yt="i_Y-yBW7kCU" aria-label="Play Gurgaon's Real Estate episode">
+              <img src="https://i.ytimg.com/vi/i_Y-yBW7kCU/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/i_Y-yBW7kCU/hqdefault.jpg'">
+              <span class="pod__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+              <div class="pod__body">
+                <p class="pod__role">My role was to structure the conversation in collaboration with a content strategist. Episodes were compiled and edited for clarity and flow. The intro was edited separately by another editor.</p>
+                <a class="pod__link mono" href="https://www.youtube.com/watch?v=i_Y-yBW7kCU" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+              </div>
+            </div></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat"><span class="stat__n" data-count-to="50" data-suffix="M+">0</span><span class="stat__l mono">Views generated for clients</span></div>
+      <div class="stat"><span class="stat__n" data-count-to="30" data-suffix="%">0</span><span class="stat__l mono">Average boost in followers</span></div>
+      <div class="stat"><span class="stat__n" data-count-to="25" data-suffix="%">0</span><span class="stat__l mono">Uplift in audience retention</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="monitor" data-monitor>
+        <div class="monitor__bar mono"><span><i class="monitor__dot"></i>Program</span><span data-mon-tc>00:00:00:00</span></div>
+        <div class="monitor__screen">
+          <video muted playsinline preload="none"></video>
+          <video muted playsinline preload="none"></video>
+          <div class="monitor__title"><span class="mono" data-mon-n>01 / 06</span><strong data-mon-t></strong></div>
+        </div>
+        <div class="monitor__bin" data-mon-bin></div>
+      </div>
+      <div class="about__body">
+        <p class="label mono">(02) — About</p>
+        <p class="about__lead" data-words>While pursuing my graduation I discovered a passion for visual storytelling. What started with YouTube tutorials has grown into leading creative teams and building cutting‑edge AI tools into professional video production.</p>
+        <div class="about__cols">
+          <div>
+            <h3 class="mono">Approach</h3>
+            <p>Every cut serves the story. I edit for the hook, the hold and the share, pacing built on retention data, not guesswork.</p>
+          </div>
+          <div>
+            <h3 class="mono">Based in</h3>
+            <p>Mumbai, Maharashtra. Working remotely with creators, founders and brands worldwide.</p>
+          </div>
+        </div>
+        <div class="tools">
+          <p class="label mono">Toolkit</p>
+          <ul>
+            <li>Premiere Pro</li><li>After Effects</li><li>DaVinci Resolve</li><li>Kling 3.0</li><li>Seedance</li><li>Seedream 4.5</li><li>FLUX</li><li>Nano Banana 2</li><li>Claude</li><li>Codex</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <p class="label mono">(03) — Services</p>
+        <h2 class="h2" data-split>Not just <em>social butterflies.</em></h2>
+      </div>
+      <ol class="svc" data-svc>
+        <li>
+          <span class="svc__n mono">01</span><span class="svc__t">Long-form videos</span>
+          <span class="svc__d">Documentaries, case studies and YouTube videos, with professional pacing and storytelling.</span><span class="svc__a">→</span>
+        </li>
+        <li>
+          <span class="svc__n mono">02</span><span class="svc__t">Short-form videos</span>
+          <span class="svc__d">Reels, TikToks and Shorts built to hook in the first second and drive engagement.</span><span class="svc__a">→</span>
+        </li>
+        <li>
+          <span class="svc__n mono">03</span><span class="svc__t">Podcast editing</span>
+          <span class="svc__d">Story structure, audio cleanup, multicam sync and cuts ready to publish on every platform.</span><span class="svc__a">→</span>
+        </li>
+        <li>
+          <span class="svc__n mono">04</span><span class="svc__t">Motion graphics</span>
+          <span class="svc__d">Animated type, title cards and data stories in After Effects that lift your brand visuals.</span><span class="svc__a">→</span>
+        </li>
+        <li>
+          <span class="svc__n mono">05</span><span class="svc__t">AI-powered films</span>
+          <span class="svc__d">Cinematic sequences and storyboards made with Kling, Seedance, Seedream and FLUX: concept to final in days.</span><span class="svc__a">→</span>
+        </li>
+        <li>
+          <span class="svc__n mono">06</span><span class="svc__t">Content creation</span>
+          <span class="svc__d">Full post-production from concept to final cut: scroll-stopping content, ready to publish.</span><span class="svc__a">→</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process">
+      <div class="section-head">
+        <p class="label mono">(04) — Process</p>
+        <h2 class="h2" data-split>From brief to <em>final cut.</em></h2>
+      </div>
+      <div class="timeline" data-timeline>
+        <div class="timeline__ruler mono" aria-hidden="true"><span>00:00</span><span>00:12</span><span>00:24</span><span>00:36</span><span>00:48</span></div>
+        <div class="timeline__track">
+          <div class="clip"><span class="mono">V1</span><h4>Brief</h4><p>We lock goals, audience and references on a 45‑min call.</p></div>
+          <div class="clip"><span class="mono">V2</span><h4>Rough cut</h4><p>Story structure first, with AI storyboards where they help.</p></div>
+          <div class="clip"><span class="mono">V3</span><h4>Polish</h4><p>Motion, sound design, color and captions. Two revision rounds.</p></div>
+          <div class="clip"><span class="mono">A1</span><h4>Deliver</h4><p>Exports for every platform, ready to post and built to perform.</p></div>
+        </div>
+        <div class="timeline__head" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="label mono">(05) — Contact</p>
+      <h2 class="contact__title">
+        <span class="line" data-split>Let's create</span>
+        <span class="line line--serif" data-split><em>something epic.</em></span>
+      </h2>
+      <div class="contact__grid">
+        <div class="contact__actions">
+          <button class="btn btn--light btn--xl" data-book data-magnetic><span class="roll"><span data-t="Book a free 45‑min call">Book a free 45‑min call</span></span><span class="arr">↗</span></button>
+          <button class="copy" data-copy="kaleprabodh84@gmail.com" data-cursor="Copy">
+            <span class="mono">Email</span><span class="copy__v">kaleprabodh84@gmail.com</span><span class="copy__hint mono">Click to copy</span>
+          </button>
+          <a class="copy" href="https://wa.me/919238402499" target="_blank" rel="noopener" data-cursor="Chat">
+            <span class="mono">WhatsApp</span><span class="copy__v">+91 92384 02499</span><span class="copy__hint mono">Open chat ↗</span>
+          </a>
+        </div>
+        <form class="form" data-form>
+          <div class="field"><input id="f-name" name="name" required placeholder=" "><label for="f-name">Your name</label></div>
+          <div class="field"><input id="f-email" name="email" type="email" required placeholder=" "><label for="f-email">Email</label></div>
+          <div class="chips" role="group" aria-label="Project type">
+            <label><input type="checkbox" name="type" value="Reels"><span>Reels</span></label>
+            <label><input type="checkbox" name="type" value="Long-form"><span>Long-form</span></label>
+            <label><input type="checkbox" name="type" value="Podcast"><span>Podcast</span></label>
+            <label><input type="checkbox" name="type" value="Motion"><span>Motion</span></label>
+            <label><input type="checkbox" name="type" value="AI film"><span>AI film</span></label>
+          </div>
+          <div class="field"><textarea id="f-msg" name="message" rows="3" required placeholder=" "></textarea><label for="f-msg">Tell me about your project</label></div>
+          <button class="btn btn--ghost" type="submit" data-magnetic><span class="roll"><span data-t="Send message">Send message</span></span><span class="arr">→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">PRABODH KALE</div>
+    <div class="footer__row mono">
+      <span>© 2026 Prabodh Kale</span>
+      <nav class="footer__social" aria-label="Social">
+        <a href="https://www.instagram.com/kaleprabodh/" target="_blank" rel="noopener" class="roll"><span data-t="Instagram">Instagram</span></a>
+        <a href="https://www.linkedin.com/in/prabodh-kale/" target="_blank" rel="noopener" class="roll"><span data-t="LinkedIn">LinkedIn</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100072398089075" target="_blank" rel="noopener" class="roll"><span data-t="Facebook">Facebook</span></a>
+        <a href="links/" class="roll"><span data-t="Links">Links</span></a>
+      </nav>
+      <a href="#top" class="roll"><span data-t="Back to top ↑">Back to top ↑</span></a>
+    </div>
+  </footer>
+
+  <!-- Lightbox player -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+    <div class="lightbox__bar mono">
+      <span data-lb-count>01 / 01</span>
+      <span data-lb-title></span>
+      <span class="lightbox__keys">J ◀ &nbsp; K ❚❚ &nbsp; L ▶ &nbsp; ESC</span>
+      <button class="lightbox__close" data-lb-close aria-label="Close player">✕</button>
+    </div>
+    <div class="lightbox__stage"><video controls playsinline></video></div>
+    <button class="lightbox__nav lightbox__nav--prev" data-lb-prev aria-label="Previous">←</button>
+    <button class="lightbox__nav lightbox__nav--next" data-lb-next aria-label="Next">→</button>
+  </div>
+
+  <!-- Booking sheet -->
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="Book a call" hidden>
+    <div class="sheet__panel">
+      <div class="sheet__bar"><span class="mono">45 min — Discovery call</span><button data-sheet-close aria-label="Close">✕</button></div>
+      <iframe title="Book a call with Prabodh Kale" data-src="https://calendly.com/kaleprabodh/45min?hide_gdpr_banner=1&background_color=0f0f0f&text_color=f2f0eb&primary_color=f2f0eb"></iframe>
+    </div>
+  </div>
+
+  <div class="toast mono" role="status" aria-live="polite"></div>
+
+  <script src="data.js?v=17"></script>
+  <script src="main.js?v=17"></script>
+</body>
+</html>
